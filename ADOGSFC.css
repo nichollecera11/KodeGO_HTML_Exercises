@@ -1,0 +1,10 @@
+nav ul li { display: inline-block;
+            position: relative;
+            padding-top: 0%;
+            background-color:aqua;
+            background-position: 0%;
+            background-repeat: no-repeat;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            word-spacing: normal;
+            }
