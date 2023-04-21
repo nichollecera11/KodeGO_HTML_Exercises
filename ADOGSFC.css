@@ -1,9 +1,83 @@
-nav ul li { display: inline-block;
-            position: relative;
-            padding-top: 0%;
-            background-color:aqua;
-            background-position: 0%;
-            background-repeat: no-repeat;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 20px;
-            word-spacing: normal;}
+* { box-sizing: border-box;
+    margin:0;
+    padding:0;
+
+}
+body {height: 100vh;
+      width: 80%;
+      margin:0px auto;
+      background:magenta;
+      border: 1px solid black;
+}
+header { 
+    display: flex;
+    flex-direction: column; 
+
+}
+header > .AFClogonav-area {
+    display: flex;
+    min-height: 50px;
+    justify-content: space-between;
+}
+.logo-area {
+    background:rgb(209, 212, 23);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-basis: 29%;
+}
+.nav-area {
+    background:rgb(80, 119, 226);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-basis: 69%;
+
+}
+ul li 
+    {   display: inline-block;
+    }
+.banner-area { 
+    display:flex;
+    min-height: 100px;
+    background: rgb(133, 133, 236);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+/*Main Part*/
+main {
+    display: flex;
+    min-height: 70vh;
+    margin-top: 10px;
+    justify-content: space-between;
+
+}
+.box-area{
+    display: flex;
+    background: rgb(130, 130, 184);
+    flex-basis: 20%;
+    justify-content: center;
+    align-items:center;
+    min-height: 400px;
+}
+/*Footer part*/
+footer { display: flex;
+    background: gray;
+    margin-top: 10px;
+    min-height: 50px;
+}
+footer > .footer-area {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) { 
+    main { flex-direction: column;}
+}
+.box-area {
+    min-height: 200px;
+    margin-top: 10px;
+}
