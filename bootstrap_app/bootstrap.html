@@ -22,9 +22,13 @@
 
       h2 {margin-top: 80px;}
 
+
       tbody > tr :nth-child(1) 
-      {     height: 200px;
-            width: 200px;}
+      {     
+            height: 200%;
+            width: 50%;
+            max-width: 100%;
+            max-height: 200%;}
 
     </style>
   </head>
@@ -116,7 +120,7 @@
       </div>
       <hr>
       <h2>Product Table</h2>
-      <div class="table-responsive">
+      <div class="table-responsive-sm">
         <table class="table table-striped">
           <thead>
             <tr>
@@ -142,16 +146,17 @@
                 <td scope="col">Product 2</td>
                 <td scope="col">19.99</td>
                 <td scope="col">5</td>
-            </tr>
-            <tr>
-              <th scope="col">
-                <img class="figure-img img-fluid rounded-circle" src="images for bootstrap/suzuki bandit.jpg" alt="suzukibandit">
-              </th>
-              <td scope="col">Product 3</td>
-              <td scope="col">29.99</td>
-              <td scope="col">3</td>
-            </tr>
-          </tbody>
+                </tr>
+              <tr>
+                <th scope="col">
+                  <img class="figure-img img-fluid rounded-circle" src="images for bootstrap/suzuki bandit.jpg" alt="suzukibandit">
+                </th>
+                  <td scope="col">Product 3</td>
+                  <td scope="col">29.99</td>
+                  <td scope="col">3</td>
+                  </tr>
+            </tbody>
+          </div>
         </table>
       </div>
     </body>

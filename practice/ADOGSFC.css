@@ -3,20 +3,21 @@
     padding:0;
 
 }
-body {height: 100vh;
-      width: 80%;
-      margin:0px auto;
-      background:magenta;
-      border: 1px solid black;
-}
+body {
+    height: 500vh;
+    width: 80%;
+    margin: 0px auto;
+    justify-content: center;}
+
 header { 
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    min-height: 100px;
 
 }
 header > .AFClogonav-area {
     display: flex;
-    min-height: 50px;
+    min-height: 100px;
     justify-content: space-between;
 }
 .logo-area {
@@ -36,6 +37,7 @@ header > .AFClogonav-area {
 }
 ul li 
     {   display: inline-block;
+        justify-content: space-evenly;
     }
 .banner-area { 
     display:flex;
@@ -48,7 +50,7 @@ ul li
 /*Main Part*/
 main {
     display: flex;
-    min-height: 70vh;
+    min-height: 500px;
     margin-top: 10px;
     justify-content: space-between;
 

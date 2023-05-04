@@ -1,0 +1,130 @@
+* { box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    }
+
+    .flex-container 
+    { 
+        display: flex;
+        flex-direction: row;
+        }
+    
+    .fs-6 {letter-spacing: 3px;}
+
+    .fs-3 {letter-spacing: 3px;
+          font-family: Air America;
+          font-weight: 300px;
+          text-shadow: #151d2d;
+          color: gold;}
+
+    .fs-2 {
+          letter-spacing: 5px;
+          font-family: InsaniburgerWithCheese-47Dp;
+          font-weight: 500;
+          text-shadow: #151d2d;
+          color: purple;}
+
+    .text-info {letter-spacing: 3px;}
+
+    .display-1 {letter-spacing: 3px;
+              font-weight: 900;
+              font-family: Insaniburger-0OZ9;
+    }
+    .display-2 {letter-spacing: 3px;
+                font-weight: 500;
+                font-family: BADABB_;}
+
+a.hover1:hover, a.hover1:active  {background: gold;}
+div#hover2:hover, div#hover2:active {background:gold;}
+div#hover3:hover, div#hover3:active {background:gold;}
+div#hover4:hover, div#hover4:active {background:gold;}
+
+body {background:#D3D3D3;}
+
+  
+.banner-image {background: url('images mp1/header\ background.jpg');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                padding: 25%;
+                color: gold;
+                }   
+                
+        
+section {
+        background-color: #D3D3D3;
+}
+
+.icon-bg { 
+            
+            width: 150px;
+            height: 150px;
+            background-color: purple;
+            border-radius: 50px;
+            margin: 0px auto; 
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            color: gold;
+        }
+
+.card {
+            background-color: #D3D3D3;
+            position: flex;
+            animation: mymove 10s infinite;
+            opacity:0.5;
+            margin-left: 25px;
+          }
+          
+          @keyframes mymove {
+            from {top: 0px;}
+            50% {top: 20px !important;} /* ignored */
+            to {top: 50px;}
+          }    
+.card:hover {opacity: 1.0;} 
+
+
+.card-body {
+            background-color: #D3D3D3;
+            position: flex;
+            animation: mymove 10s infinite;
+          }
+          
+          @keyframes mymove {
+            from {top: 0px;}
+            50% {top: 20px !important;} /* ignored */
+            to {top: 50px;}
+          }  
+
+hr {
+    border: 10px solid gold;
+    border-radius: 5px;}
+
+/*Footer*/
+
+footer { background-color: #151d2d;
+        color: goldenrod;
+        font-family: Air America;
+        letter-spacing: 3px;}
+
+        
+#footer-row {     
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-wrap: wrap;
+          width: 90%;
+
+}
+.col-2 {  width: 300px;
+          height: 345px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding: 70px 20px;}
+
+
+.footer-links li  { list-style:  none;}
+.contact-details li { list-style: none;}
+.social-link-icons li { list-style: none;}
